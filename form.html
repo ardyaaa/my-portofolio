@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Konsultasi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f7f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .form-card {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+        .form-card label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-card input, .form-card select, .form-card textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-card textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        .required {
+            color: red;
+        }
+        .form-card button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .form-card button:hover {
+            background-color: #45a049;
+        }
+        .back-button {
+            background-color: #2196F3;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 12px 0;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+        }
+        .back-button:hover {
+            background-color: #1976D2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-card">
+    <form>
+        <label>Usia <span class="required">*</span></label>
+        <input type="number" required>
+
+        <label>Jenis kelamin biologis <span class="required">*</span></label>
+        <select required>
+            <option value="">Pilih</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select>
+
+        <label>Domisili/Daerah tempat tinggal saat ini <span class="required">*</span></label>
+        <input type="text" required>
+
+        <label>Pekerjaan <span class="required">*</span></label>
+        <input type="text" required>
+
+        <label>Keluhan <span class="required">*</span></label>
+        <textarea required></textarea>
+
+        <label>Email <span class="required">*</span></label>
+        <input type="email" required>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <a href="index.html" class="back-button">Kembali ke Index</a>
+</div>
+<body>
+    <div class="container">
+        <!-- FORM MULAI -->
+        <main>
+            <!-- Isi form di sini -->
+        </main>
+        <!-- FORM SELESAI -->
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Teman Bicara. Tempat aman untuk hatimu bicara.</p>
+            <img src="logo.png" alt="Logo Klinik" class="footer-logo">
+        </div>
+    </footer>
+</body>
+
+
+</body>
+</html>

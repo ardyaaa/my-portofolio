@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beranda - Teman Bicara</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Teman Bicara</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="dokter.html">Psikolog</a></li>
+        <li><a href="layanan.html">Layanan</a></li>
+        <li><a href="kontak.html">Tentang Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <img src="banner2.png" alt="Banner Kesehatan" />
+  </section>
+
+  <section class="content">
+    <section class="feeling-section">
+  <h2 class="highlight-title">Apa Yang Sedang Kamu Rasakan?</h2>
+  <p>Yuk, pilih perasaan yang sedang kamu hadapi dan temukan bantuan yang kamu butuhkan sekarang!</p>
+
+  <div class="feelings-container" id="feelings">
+    <div class="feeling active" onclick="showInfo('keluarga')">
+      <img src="keluarga.png" alt="Keluarga & Hubungan" />
+      <p>Keluarga<br>& Hubungan</p>
+    </div>
+    <div class="feeling" onclick="showInfo('depresi')">
+      <img src="depresi.png" alt="Depresi" />
+      <p>Depresi</p>
+    </div>
+    <div class="feeling" onclick="showInfo('kecemasan')">
+      <img src="kecemasan.png" alt="Kecemasan" />
+      <p>Kecemasan</p>
+    </div>
+    <div class="feeling" onclick="showInfo('stres')">
+      <img src="stres.png" alt="Stres" />
+      <p>Stres</p>
+    </div>
+    <div class="feeling" onclick="showInfo('trauma')">
+      <img src="trauma.png" alt="Trauma" />
+      <p>Trauma</p>
+    </div>
+    <div class="feeling" onclick="showInfo('pemadaman')">
+      <img src="burnout.png" alt="Pemadaman" />
+      <p>Pemadaman</p>
+    </div>
+    <div class="feeling" onclick="showInfo('mood')">
+      <img src="mood.png" alt="Gangguan Mood" />
+      <p>Gangguan Mood</p>
+    </div>
+    <div class="feeling" onclick="showInfo('kecanduan')">
+      <img src="kecanduan.png" alt="Kecanduan" />
+      <p>Kecanduan</p>
+    </div>
+  </div>
+
+  <div class="info-box" id="infoBox">
+    <h3 id="infoTitle">Terapi Keluarga dan Hubungan: Meraih Harmoni Bersama</h3>
+    <p id="infoContent">
+      Terapi keluarga dan hubungan adalah bentuk terapi bicara yang bertujuan membantu individu, pasangan, atau keluarga mengatasi berbagai masalah hubungan.
+    </p>
+  </div>
+</section>
+
+<section class="layanan-lanjutan">
+  <h2 class="highlight-title">Layanan Cepat</h2>
+  <div class="layanan-container">
+    <a href="form.html" class="layanan-card">
+      <img src="sesilega.png" alt="Sesi Lega">
+      <h3>Ruang Lega</h3>
+      <p>Konsultasi bersama psikolog Teman Bicara yang siap bikin hati kamu lebih lega!</p>
+    </a>
+
+    <a href="form.html" class="layanan-card">
+      <img src="ceklega.png" alt="Cek Lega">
+      <h3>Cek Lega</h3>
+      <p>Tes kesehatan mental plus sesi konseling untuk memeriksa kondisi kesehatan mentalmu!</p>
+    </a>
+  </div>
+</section>
+</section>
+
+<section class="fitur-section">
+  <div class="fitur-header">
+    <span class="label">Layanan Kami</span>
+    <h2>Teman Bicara siap untuk...</h2>
+  </div>
+  
+  <div class="fitur-container">
+    <div class="fitur-card">
+      <img src="nyaman.png" alt="Konsultasi Nyaman" />
+      <p>Memberikan konsultasi tatap muka melalui video chat dengan nyaman</p>
+    </div>
+    <div class="fitur-card">
+      <img src="privasi.png" alt="Privasi Terjaga" />
+      <p>Menjaga dan menjamin privasi kamu</p>
+    </div>
+    <div class="fitur-card">
+      <img src="profesional.png" alt="Profesionalisme" />
+      <p>Menerapkan standar profesionalisme tertinggi demi kenyamanan kamu</p>
+    </div>
+    <div class="fitur-card">
+      <img src="layanan.png" alt="Pelayanan Terbaik" />
+      <p>Mengutamakan kebutuhan kamu dan selalu memberikan pelayanan terbaik.</p>
+    </div>
+  </div>
+</section>
+
+<section class="psikolog-section">
+  <div class="psikolog-header">
+    <span class="label">Psikolog</span>
+    <h2>Mau Mulai Konsultasi?<br>Yuk Kenalan sama Teman Bicara Kita!</h2>
+  </div>
+
+ <div class="psikolog-container">
+  <!-- Psikolog 1 -->
+  <div class="psikolog-card">
+    <img src="Indira Kartika Wulandari, M.Psi..png" alt="Indira Kartika Wulandari, M.Psi." class="psikolog-photo">
+    <h3>Indira Kartika Wulandari, M.Psi.</h3>
+    <p>Konselor</p>
+    <div class="psikolog-buttons">
+      <a href="psikolog1.html" class="btn btn-profile">Lihat profil</a>
+      <a href="form.html" class="btn btn-consult">Konsultasi</a>
+    </div>
+  </div>
+
+  <!-- Psikolog 2 -->
+  <div class="psikolog-card">
+    <img src="Ratih Maharani Prameswari.png" alt="Ratih Maharani Prameswari, M.Psi." class="psikolog-photo">
+    <h3>Ratih Maharani Prameswari, M.Psi.</h3>
+    <p>Psikolog Klinis</p>
+    <div class="psikolog-buttons">
+      <a href="psikolog2.html" class="btn btn-profile">Lihat profil</a>
+      <a href="form.html" class="btn btn-consult">Konsultasi</a>
+    </div>
+  </div>
+
+  <!-- Psikolog 3 -->
+  <div class="psikolog-card">
+    <img src="Fariza Ambrella, M.Psi.png" alt="Fariza Ambrella, M.Psi." class="psikolog-photo">
+    <h3>Fariza Ambrella, M.Psi.</h3>
+    <p>Konselor</p>
+    <div class="psikolog-buttons">
+      <a href="psikolog3.html" class="btn btn-profile">Lihat profil</a>
+      <a href="form.html" class="btn btn-consult">Konsultasi</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>© 2025 Teman Bicara. Tempat aman untuk hatimu bicara.</p>
+        <img src="logo.png" alt="Logo Klinik" class="footer-logo">
+    </div>
+</footer>
+  <script>
+  const infoData = {
+    keluarga: {
+      title: "Terapi Keluarga dan Hubungan: Meraih Harmoni Bersama",
+      content: "Terapi keluarga dan hubungan adalah bentuk terapi bicara yang bertujuan membantu individu, pasangan, atau keluarga mengatasi berbagai masalah hubungan."
+    },
+    depresi: {
+      title: "Depresi: Lebih dari Sekadar Sedih Biasa",
+      content: "Depresi adalah gangguan kesehatan mental yang umum dan serius yang ditandai dengan suasana hati yang rendah, kehilangan minat, dan gejala mental lainnya."
+    },
+    kecemasan: {
+      title: "Kecemasan: Ketika Rasa Takut Menguasai",
+      content: "Kecemasan adalah respons alami tubuh terhadap stres, tetapi jika berlangsung lama dapat mengganggu kehidupan sehari-hari."
+    },
+    stres: {
+      title: "Stres: Tekanan yang Tak Terlihat",
+      content: "Stres terjadi saat kita menghadapi tekanan hidup yang besar, dan bisa berdampak pada fisik, mental, dan emosi kita."
+    },
+    trauma: {
+      title: "Trauma: Luka Emosional yang Dalam",
+      content: "Trauma bisa muncul dari pengalaman menyakitkan seperti kehilangan, kecelakaan, atau kekerasan dan mempengaruhi kesejahteraan psikologis kita."
+    },
+    pemadaman: {
+      title: "Pemadaman Emosi: Ketika Rasa Mati Rasa",
+      content: "Pemadaman emosi terjadi saat seseorang merasa tidak mampu lagi merasakan apapun sebagai mekanisme bertahan dari stres berat."
+    },
+    mood: {
+      title: "Gangguan Mood: Perubahan Emosi yang Ekstrem",
+      content: "Gangguan mood mencakup kondisi seperti bipolar dan depresi berat yang mempengaruhi kestabilan emosi dalam jangka panjang."
+    },
+    kecanduan: {
+      title: "Kecanduan: Ketergantungan yang Merusak",
+      content: "Kecanduan adalah kondisi kronis yang ditandai oleh pencarian zat atau perilaku meskipun ada konsekuensi negatif yang nyata."
+    }
+  };
+
+  function showInfo(key) {
+    document.querySelectorAll('.feeling').forEach(el => el.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    const data = infoData[key];
+    document.getElementById('infoTitle').innerText = data.title;
+    document.getElementById('infoContent').innerText = data.content;
+  }
+</script>
+</body>
+</html>
